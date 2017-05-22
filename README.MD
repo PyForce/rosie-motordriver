@@ -53,3 +53,7 @@ Testing the driver
 ------------------
 You can easily test the driver by selecting 'ArduinoMD' in your robot profile inside rosie. Otherwise you can use the driver standalone using the script 'ArduinoMD.py' contained in the rosie project.
 
+
+Modifying the design
+--------------------
+If you want to change this design you will probably need the hardware schematics. Take a look at *schematics.bmp*.
