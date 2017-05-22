@@ -1,8 +1,11 @@
 DC Motor Driver
 ===============
 
-This project is a Dual DC motor driver compatible with Rosie platform. It includes both: the hardware design of an Arduino shield and the firmware to use it. 
-For have up and running this project you will need:
+This project is a Dual DC motor driver compatible with Rosie platform. It includes both: the hardware design of an Arduino shield and the firmware to use it.
+
+#![](3Dpreview.jpg)
+
+To have up and running this project you will need:
 * Arduino UNO (or any other with the ATMega328 microcontroller)
 * DC motor(s) with encoder
 * Manufacture the shield
