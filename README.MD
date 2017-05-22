@@ -29,7 +29,7 @@ Manufacturing the shield
 ------------------------
 * Buy all components in *component_list.txt*
 * Print the dual layer PCB using *top.pdf* and *bottom.pdf*
-* Soldier the components as shown in *schema.png*
+* Soldier the components as shown in *silk.pdf*
 
 **Note:** We produce this board in Cuba without Hardware Stores or Online Shopping. Believe us, is not that hard.
 
