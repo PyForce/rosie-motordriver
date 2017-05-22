@@ -1,0 +1,42 @@
+Component List
+==============
+
+Capacitors
+----------
+* C1	330u	Electrolitic	
+* C2	100nF	SMD
+* C3	100nF	SMD
+* C4	100nF	SMD
+* C5	100nF	SMD
+* C6	100nF	SMD
+
+Resistors
+---------
+* R1	3.9k	
+* R2	3.9k
+* R3	10k
+* R4	10k
+* R5	1k
+* R6	1k
+* R7	10k
+
+Integrated Circuits
+-------------------
+*	U1	L298		
+
+Diodes
+------
+* D1	1N5819
+* D2	1N5819
+* D3	1N5819
+* D4	1N5819
+* D5	1N5819
+* D6	1N5819
+* D7	1N5819
+* D8	1N5819
+* D9	LED
+
+Miscellaneous
+-------------
+* Microstrip connectors
+* Switch
