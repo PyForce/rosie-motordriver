@@ -2,7 +2,7 @@
 //Arduino Motor Shield Driver. 
 //Code developed by Gustavo Viera Lopez
 //Code developed by Silvio Delgado
-//Ask gvieralopez@gmail.com for the hardware schematics
+//Hardware design and protocol: https://github.com/PyForce/rosie-motordriver
 //////////////////////////////////////////////////////////////////////////
 //Defining Arduino's Pins
 /////////////////////////////////////////////////////////////////////////////
@@ -141,14 +141,13 @@ void loop()
             constant_kd = *(float*)buffer;
             break;
         case COMMAND_SETPOINT:
-            digitalWrite(13,HIGH);
-            // while(Serial.available() < 4);
-            // Serial.readBytes(buffer, 4);
-            // setpoint1 = *(float*)buffer;
+            while(Serial.available() < 4);
+            Serial.readBytes(buffer, 4);
+            setpoint1 = *(float*)buffer;
 
-            // while(Serial.available() < 4);
-            // Serial.readBytes(buffer, 4);
-            // setpoint2 = *(float*)buffer;
+            while(Serial.available() < 4);
+            Serial.readBytes(buffer, 4);
+            setpoint2 = *(float*)buffer;
             break;
         case COMMAND_GETSTATE:
             if(samplingSpeeds == 0)
