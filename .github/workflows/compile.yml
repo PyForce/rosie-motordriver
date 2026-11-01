@@ -11,7 +11,8 @@ permissions:
 jobs:
   compile:
     name: Compile the firmware for the Arduino Uno
-    runs-on: ubuntu-latest
+    # arduino/compile-sketches installs Python 3.12.4, which has no build for ubuntu-26.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: arduino/compile-sketches@d7af6619a62e765d91f0a4d65b40cf061537a15d # v1.1.3
